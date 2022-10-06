@@ -1,0 +1,13 @@
+.Opcion{
+    float: left;
+}
+.Opcion a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 14px 16px;
+    text-align: center;
+}
+.Opcion a:hover{
+    background-color: gray;
+}

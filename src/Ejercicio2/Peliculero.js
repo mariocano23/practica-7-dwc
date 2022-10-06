@@ -15,6 +15,12 @@ function Peliculero(props) {
                     {props.direccion}
                 </p>
                 <p>
+                    {props.clasificacion}
+                </p>
+                <p>
+                    {props.nota}
+                </p>
+                <p>
                     {props.children}
                 </p>
             </article>
