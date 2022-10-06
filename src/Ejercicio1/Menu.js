@@ -3,7 +3,7 @@ import Opcion from './Opcion';
 import './CSS/Menu.css';
 
 function Menu(props){
-    const opciones=[
+    const opciones=[ //Este array guarda las opciones que apareceran en el menú.
         {id:1,opcion:"Inicio"},
         {id:2,opcion:"Contacto"},
         {id:3,opcion:"Etc"}
@@ -13,7 +13,7 @@ function Menu(props){
             <ul className='Menu'>
                 {opciones.map((v) => {
                     return(
-                        <Opcion opcion={v.opcion}></Opcion>
+                        <Opcion opcion={v.opcion}></Opcion> /*He introducido el componente opcion dentro de menú.*/
                     );
                 })}
             </ul>

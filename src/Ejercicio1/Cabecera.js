@@ -7,7 +7,7 @@ function Cabezera(props){
         <React.Fragment>
         <header className='Cabezera'>
             <h1>{props.descri}</h1>
-            <Menu></Menu>
+            <Menu></Menu> {/*He introducido el menú dentro de la cabecera.*/}
         </header>
         </React.Fragment>
     )

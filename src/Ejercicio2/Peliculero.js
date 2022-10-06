@@ -6,7 +6,7 @@ function Peliculero(props) {
         <React.Fragment>
             <article className='Pelicula'>
                 <h1>
-                    <strong>{props.titulo}</strong>
+                    <strong>{props.titulo}</strong> {/*He usado strong para resaltar el título.*/}
                 </h1>
                 <figure>
                     <img src={props.cartel}></img>
@@ -15,7 +15,7 @@ function Peliculero(props) {
                     {props.direccion}
                 </p>
                 <p>
-                    {props.clasificacion}
+                    {props.clasificacion} {/*He añadido los datos que aparecen en el json.*/}
                 </p>
                 <p>
                     {props.nota}
