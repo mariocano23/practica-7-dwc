@@ -1,5 +1,6 @@
 import React from "react";
 import './CSS/Peliculero.css'
+import Nota from "./Nota";
 
 function Peliculero(props) {
     return(
@@ -17,9 +18,7 @@ function Peliculero(props) {
                 <p>
                     {props.clasificacion} {/*He añadido los datos que aparecen en el json.*/}
                 </p>
-                <p>
-                    {props.nota}
-                </p>
+                <Nota nota={props.nota}></Nota>
                 <p>
                     {props.children}
                 </p>

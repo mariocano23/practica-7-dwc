@@ -11,17 +11,12 @@ function Contenedor(props){ //Este componente es el que almacena a todos los dem
             <wrapper className='Contenedor'>
                 <Cabezera descri="Página de Películas"></Cabezera>
                 {peliculas["peliculas"].map((v) =>{
-                    let estrellas =""
-                    for (let index = 0; index < v.nota; index++) {
-                        estrellas+="*";
-                        
-                    }
                     return(
                         <Peliculero titulo={v.nombre}
                         direccion={v.director}
                         clasificacion={v.clasificacion}
                         cartel={v.cartelera}
-                        nota={estrellas}
+                        nota={v.nota}
                         >
                             {v.resumen}
                         </Peliculero>
