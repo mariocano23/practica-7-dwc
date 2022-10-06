@@ -1,5 +1,8 @@
-.Cabezera{
+.Cabecera{
     background-color: gray;
-    padding: 0;
     margin: 0;
+}
+.Cabecera h1{
+    margin: 0;
+    padding: 15px;
 }

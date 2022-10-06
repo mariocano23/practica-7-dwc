@@ -2,10 +2,10 @@ import React from 'react';
 import Menu from './Menu';
 import './CSS/Cabecera.css';
 
-function Cabezera(props){
+function Cabecera(props){
     return(
         <React.Fragment>
-        <header className='Cabezera'>
+        <header className='Cabecera'>
             <h1>{props.descri}</h1>
             <Menu></Menu>
         </header>
@@ -13,4 +13,4 @@ function Cabezera(props){
     )
 }
 
-export default Cabezera;
+export default Cabecera;
